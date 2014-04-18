@@ -1,0 +1,1 @@
+ls | grep rdf | xargs -n 1 python remove_description.py

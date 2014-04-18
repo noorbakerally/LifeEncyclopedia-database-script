@@ -1,0 +1,7 @@
+filename=$1
+if [ ! -f $1 ];
+then
+        echo http://www.bbc.co.uk/nature/life/${filename}
+        wget -q http://www.bbc.co.uk/nature/life/${filename}
+fi
+
